@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="xhdpi.crkj.com.mymvpdemo.View.MainActivity">
+    <EditText
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/ev_account_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@null"/>
+    <EditText
+        android:layout_below="@+id/ev_account_main"
+        android:layout_marginTop="5dp"
+        android:id="@+id/ev_password_main"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@null"/>
+    <Button
+        android:id="@+id/bt_login_main"
+        android:text="登录"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/ev_password_main"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+    <Button
+        android:id="@+id/bt_forgetpassword_main"
+        android:text="忘记密码"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/ev_password_main"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@null"/>
+
+    <TextView
+        android:id="@+id/tv_showMessage_main"
+        android:layout_below="@+id/bt_forgetpassword_main"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:text="Message:"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
