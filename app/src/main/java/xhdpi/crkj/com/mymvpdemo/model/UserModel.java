@@ -6,7 +6,6 @@ import xhdpi.crkj.com.mymvpdemo.Bean.UserBean;
 import xhdpi.crkj.com.mymvpdemo.presenter.OnUserBeanListener;
 
 /**
- * 版    权：深圳市承儒科技有限公司
  * 创建日期：2018/4/19
  * 作   者：Stephen zora
  * Q  Q：781723432
