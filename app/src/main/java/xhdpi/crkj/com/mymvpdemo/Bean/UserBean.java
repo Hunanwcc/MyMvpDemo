@@ -6,7 +6,7 @@ package xhdpi.crkj.com.mymvpdemo.Bean;
  * 作   者：Stefan Cheng
  * Q  Q：781723432
  * <p>
- * 描 述：实体类  保存用户登录信息
+ * 描 述：实体类  保存用户登录信息。测试修改内容是否生效
  */
 public class UserBean {
     private String name ;
